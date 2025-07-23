@@ -1,0 +1,5 @@
+idf_component_register(
+    SRCS "ai-esp32-rotary-encoder/src/AiEsp32RotaryEncoder.cpp" "ai-esp32-rotary-encoder/src/AiEsp32RotaryEncoderNumberSelector.cpp" "Button2/src/Button2.cpp" "Button2/src/main.cpp"
+    INCLUDE_DIRS "ai-esp32-rotary-encoder/src" "Button2/src"
+    REQUIRES arduino-esp32
+)
