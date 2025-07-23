@@ -19,7 +19,7 @@
 
 <p align="center">
   <a href="https://github.com/grant-Gan/desktop_smart_lamp/">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="Images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">AXin实验室</h3>
@@ -128,14 +128,14 @@ desktop_smart_lamp
 #### 电源适配器
 本项目设计最大功耗为30W，输入电压为12~20V，20V时效率比较高，驱动板发热下降，推荐首选。因此需要使用额定30W以上、支持20V输出、支持PD充电协议的电源适配器，大部分手机配的快充头，如果功率大于30W，有TYPE-C接口都可以使用，不必额外购买。
 <p align="center">
-  <img src="images/电源适配器.jpg" height="200">  
+  <img src="Images/电源适配器.jpg" height="200">  
   <p align="center">有Type-C输出的电源适配器，通常支持PD协议</p>
 </p>
 
 #### 数据线
 本项目使用的时C2C快充数据线，建议额定功率60W以上，长度根据使用环境选择，AXin使用的是2米的数据线，能够匹配大部分使用场景。
 <p align="center">
-  <img src="images/快充数据线.webp" height="200">  
+  <img src="Images/快充数据线.webp" height="200">  
   <p align="center">C2C快充数据线</p>
 </p>
 
@@ -145,14 +145,14 @@ desktop_smart_lamp
 #### 角码
 本项目使用的是20*32*60的L型不锈钢角码，若想选用其他型号，需要保证螺丝孔开口大于6.0mm以上，能够让悬臂支架上1/4螺丝头伸进去。
 <p align="center">
-  <img src="images/角码.png" height="300">  
+  <img src="Images/角码.png" height="300">  
   <p align="center">20x32x60角码</p>
 </p>
 
 #### 悬臂支架
 本项目使用的是带有1/4螺丝的悬臂支架配合铝制夹具，需要注意的是由于灯管比较长，力臂较大，一定要选择质量足够好的悬臂支架才行，不然固定扳手的螺母会滑丝，建议大家不要贪图便宜，在正规渠道购买。
 <p align="center">
-  <img src="images/悬臂支架.png" height="300">  
+  <img src="Images/悬臂支架.png" height="300">  
   <p align="center">带1/4螺丝的悬臂支架</p>
 </p>
 
@@ -166,7 +166,7 @@ desktop_smart_lamp
 无线控制驱动板使用ESP32-C2模组，使用PWM调光，驱动芯片为LGS63042EP,中间部分仅需要焊接R9、R18两个下拉电阻及D5、D6两个稳压二极管，其中稳压二极管用于保护驱动芯片EN引脚，可选。  
 **注意事项：驱动端输出电压较高，需使用50V以上电容。**
 <p align="center">
-  <img src="images/PWM调光版-焊接参考.png">  
+  <img src="Images/PWM调光版-焊接参考.png">  
 无线控制版驱动板焊接参考 
 </p>
   
@@ -174,12 +174,12 @@ desktop_smart_lamp
 **注意事项：控制器焊接需要留意编码器的选型，本项目采用的编码器型号为EC11、手柄长度12mm、梅花柄、正码（顺时针）、旋转一圈脉冲20位**
 
 <p align="center">
-  <img src="images/控制板TOP.png" width="300" hwight="300">
+  <img src="Images/控制板TOP.png" width="300" hwight="300">
   <p align="center">控制器焊接参考</p>
 </p>
 
 <p align="center">
-  <img src="images/控制板Buttom.png" width="300" hwight="300">
+  <img src="Images/控制板Buttom.png" width="300" hwight="300">
   <p align="center">控制器焊接参考</p>
 </p>
 
@@ -189,14 +189,14 @@ desktop_smart_lamp
 滑动控制版本可以不焊接控制器、DCDC部分的元器件，成本低不少，若没有无线控制需求，推荐给大家优先尝试。具体需要焊接的元件请参考下方的焊接参考图和原理图。
 **注意事项：驱动端输出电压较高，需使用50V以上电容。**
 <p align="center">
-  <img src="images/模拟调光版-焊接参考.png">  
+  <img src="Images/模拟调光版-焊接参考.png">  
 滑动控制版驱动板焊接参考 
 </p>  
 
 - 滑动控制板  
 这里没什么好说的，直接按照图焊接好就行。
 <p align="center">
-  <img src="images/滑动控制板.png" width="300">  
+  <img src="Images/滑动控制板.png" width="300">  
   <p align="center">滑动控制板</p>
 </p>  
 
