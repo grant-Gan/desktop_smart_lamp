@@ -21,7 +21,6 @@
   <a href="https://github.com/grant-Gan/desktop_smart_lamp/">
     <img src="Images/Logo.png" alt="Logo" width="80" height="80">
   </a>
-s
   <h3 align="center">AXin实验室</h3>
   <p align="center">
     生命不息，折腾不止，Axin致力于DIY想要又买不起的产品~
